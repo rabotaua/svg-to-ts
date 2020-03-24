@@ -99,7 +99,7 @@ export const svgOptimizer = new svgo({
       sortAttrs: true
     },
     {
-      removeDimensions: true
+      removeDimensions: false
     }
   ]
 });
